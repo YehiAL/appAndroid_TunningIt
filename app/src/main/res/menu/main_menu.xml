@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/principal"
+            android:icon="@drawable/principal"
+            android:title="Principal"
+            />
+
+        <item
+            android:id="@+id/lista"
+            android:icon="@drawable/list"
+            android:title="Lista de deseados"
+            />
+    </group>
+    <item android:title="Perfil">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/redes"
+                    android:icon="@drawable/redes"
+                    android:title="Redes"/>
+                <item
+                    android:id="@+id/login"
+                    android:icon="@drawable/loginimg"
+                    android:title="Ingresar"/>
+            </group>
+        </menu>
+    </item>
+</menu>

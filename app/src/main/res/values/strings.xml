@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TunnigIt</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+    <string name="varProd_descripcion">Descripción:</string>
+    <string name="varProd_cantidad">Cantidad:</string>
 </resources>
